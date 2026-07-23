@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -29,6 +29,7 @@
   @media (max-width:600px){.serv-grid{grid-template-columns:1fr}}
   @media (max-width:760px){.testi-grid{grid-template-columns:1fr !important}}
   .testi-viewport{transition:height .45s cubic-bezier(.4,0,.2,1)}
+  .jt,.dc-modal li{text-align:justify;-webkit-hyphens:auto;hyphens:auto}
   .tl-scroll{scrollbar-width:thin;scrollbar-color:#A6192E rgba(255,255,255,.12)}
   .tl-scroll::-webkit-scrollbar{height:8px}
   .tl-scroll::-webkit-scrollbar-track{background:rgba(255,255,255,.1);border-radius:4px}
@@ -116,8 +117,8 @@
           <span style="font-size:12px;letter-spacing:.3em;text-transform:uppercase;color:#A6192E;font-weight:600">Nosotros · Antecedentes</span>
         </div>
         <h2 style="font-family:'Spectral',serif;font-weight:400;font-size:clamp(30px,3.8vw,46px);line-height:1.12;letter-spacing:-0.01em;color:#15191E;margin:0 0 26px;text-wrap:balance">Una firma construida sobre la confianza de sus clientes.</h2>
-        <p style="font-size:16.5px;line-height:1.75;color:#454A4E;margin:0 0 18px;max-width:560px">Abimerhi Consultores es una firma de consultoría contable y fiscal respaldada por <strong style="color:#15191E;font-weight:600">más de 35 años de experiencia</strong>. Atendemos a personas físicas y morales de diferentes giros, desarrollando alianzas estratégicas y servicios que complementan la atención a nuestros clientes en áreas como auditorías fiscales, de seguro social y de control interno, así como asesoría legal, fiscal y corporativa.</p>
-        <p style="font-size:16.5px;line-height:1.75;color:#454A4E;margin:0 0 40px;max-width:560px">Nuestros colaboradores son pieza fundamental en el logro de nuestros objetivos, y la confianza que depositan nuestros clientes es lo más importante para la firma.</p>
+        <p class="jt" style="font-size:16.5px;line-height:1.75;color:#454A4E;margin:0 0 18px;max-width:560px">Abimerhi Consultores es una firma de consultoría contable y fiscal respaldada por <strong style="color:#15191E;font-weight:600">más de 35 años de experiencia</strong>. Atendemos a personas físicas y morales de diferentes giros, desarrollando alianzas estratégicas y servicios que complementan la atención a nuestros clientes en áreas como auditorías fiscales, de seguro social y de control interno, así como asesoría legal, fiscal y corporativa.</p>
+        <p class="jt" style="font-size:16.5px;line-height:1.75;color:#454A4E;margin:0 0 40px;max-width:560px">Nuestros colaboradores son pieza fundamental en el logro de nuestros objetivos, y la confianza que depositan nuestros clientes es lo más importante para la firma.</p>
 
         <div style="display:flex;flex-wrap:wrap;gap:0;border-top:1px solid #E6E6E3">
           <div style="flex:1;min-width:120px;padding:24px 26px 6px 0;border-right:1px solid #E6E6E3">
@@ -291,7 +292,7 @@
               <svg viewBox="0 0 30 30" width="27" height="27" fill="none" stroke="#A6192E" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="4" y="3" width="22" height="24" rx="1.5"></rect><line x1="9" y1="9" x2="21" y2="9"></line><line x1="9" y1="14" x2="21" y2="14"></line><line x1="9" y1="19" x2="16" y2="19"></line></svg>
               <h3 style="font-family:'Spectral',serif;font-weight:500;font-size:23px;color:#15191E;margin:0">Contabilidad</h3>
             </div>
-            <p style="font-size:14.5px;line-height:1.65;color:#52575B;margin:0;flex:1">Registro técnico de las transacciones de su entidad, base de los estados financieros útiles para la toma de decisiones.</p>
+            <p class="jt" style="font-size:14.5px;line-height:1.65;color:#52575B;margin:0;flex:1">Registro técnico de las transacciones de su entidad, base de los estados financieros útiles para la toma de decisiones.</p>
             <button onClick="{{ openContab }}" class="cta-rotate" style="margin-top:4px;align-self:flex-start;background:#A6192E;color:#fff;border:none;font-family:inherit;font-size:12px;font-weight:600;letter-spacing:.07em;text-transform:uppercase;padding:9px 12px 9px 22px;border-radius:2px;cursor:pointer;display:inline-flex;align-items:center;gap:12px;transition:background .25s ease,transform .25s ease,box-shadow .25s ease" style-hover="background:#8E1526;transform:translateY(-2px);box-shadow:0 8px 18px rgba(0,0,0,.22)">Más Información <span class="cta-arrow" style="display:inline-flex;align-items:center;justify-content:center;width:28px;height:28px;border-radius:3px;background:rgba(0,0,0,.22);transition:transform .35s ease;flex:none"><span style="font-size:14px;line-height:1;transition:transform .35s ease">→</span></span></button>
           </div>
         </div>
@@ -302,7 +303,7 @@
               <svg viewBox="0 0 30 30" width="27" height="27" fill="none" stroke="#A6192E" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="13" cy="13" r="8.5"></circle><line x1="19.5" y1="19.5" x2="26" y2="26"></line><polyline points="9.5,13 12,15.5 16.5,10.5"></polyline></svg>
               <h3 style="font-family:'Spectral',serif;font-weight:500;font-size:23px;color:#15191E;margin:0">Auditoría</h3>
             </div>
-            <p style="font-size:14.5px;line-height:1.65;color:#52575B;margin:0;flex:1">Revisión fiscal y financiera independiente sobre sus estados financieros y el cumplimiento de obligaciones.</p>
+            <p class="jt" style="font-size:14.5px;line-height:1.65;color:#52575B;margin:0;flex:1">Revisión fiscal y financiera independiente sobre sus estados financieros y el cumplimiento de obligaciones.</p>
             <button onClick="{{ openAudit }}" class="cta-rotate" style="margin-top:4px;align-self:flex-start;background:#A6192E;color:#fff;border:none;font-family:inherit;font-size:12px;font-weight:600;letter-spacing:.07em;text-transform:uppercase;padding:9px 12px 9px 22px;border-radius:2px;cursor:pointer;display:inline-flex;align-items:center;gap:12px;transition:background .25s ease,transform .25s ease,box-shadow .25s ease" style-hover="background:#8E1526;transform:translateY(-2px);box-shadow:0 8px 18px rgba(0,0,0,.22)">Más Información <span class="cta-arrow" style="display:inline-flex;align-items:center;justify-content:center;width:28px;height:28px;border-radius:3px;background:rgba(0,0,0,.22);transition:transform .35s ease;flex:none"><span style="font-size:14px;line-height:1;transition:transform .35s ease">→</span></span></button>
           </div>
         </div>
@@ -313,7 +314,7 @@
               <svg viewBox="0 0 30 30" width="27" height="27" fill="none" stroke="#A6192E" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="15" cy="15" r="11"></circle><line x1="10" y1="20" x2="20" y2="10"></line><circle cx="11.5" cy="11.5" r="1.7"></circle><circle cx="18.5" cy="18.5" r="1.7"></circle></svg>
               <h3 style="font-family:'Spectral',serif;font-weight:500;font-size:23px;color:#15191E;margin:0">Asesoría Fiscal</h3>
             </div>
-            <p style="font-size:14.5px;line-height:1.65;color:#52575B;margin:0;flex:1">Diagnóstico y opinión profesional sobre su estatus fiscal y financiero, con seguridad jurídica en cada decisión.</p>
+            <p class="jt" style="font-size:14.5px;line-height:1.65;color:#52575B;margin:0;flex:1">Diagnóstico y opinión profesional sobre su estatus fiscal y financiero, con seguridad jurídica en cada decisión.</p>
             <button onClick="{{ openFiscal }}" class="cta-rotate" style="margin-top:4px;align-self:flex-start;background:#A6192E;color:#fff;border:none;font-family:inherit;font-size:12px;font-weight:600;letter-spacing:.07em;text-transform:uppercase;padding:9px 12px 9px 22px;border-radius:2px;cursor:pointer;display:inline-flex;align-items:center;gap:12px;transition:background .25s ease,transform .25s ease,box-shadow .25s ease" style-hover="background:#8E1526;transform:translateY(-2px);box-shadow:0 8px 18px rgba(0,0,0,.22)">Más Información <span class="cta-arrow" style="display:inline-flex;align-items:center;justify-content:center;width:28px;height:28px;border-radius:3px;background:rgba(0,0,0,.22);transition:transform .35s ease;flex:none"><span style="font-size:14px;line-height:1;transition:transform .35s ease">→</span></span></button>
           </div>
         </div>
@@ -324,7 +325,7 @@
               <svg viewBox="0 0 30 30" width="27" height="27" fill="none" stroke="#A6192E" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="4.5,11 15,4.5 25.5,11"></polyline><line x1="7.5" y1="11.5" x2="7.5" y2="22"></line><line x1="13" y1="11.5" x2="13" y2="22"></line><line x1="17" y1="11.5" x2="17" y2="22"></line><line x1="22.5" y1="11.5" x2="22.5" y2="22"></line><line x1="4.5" y1="25" x2="25.5" y2="25"></line></svg>
               <h3 style="font-family:'Spectral',serif;font-weight:500;font-size:23px;color:#15191E;margin:0">Legal</h3>
             </div>
-            <p style="font-size:14.5px;line-height:1.65;color:#52575B;margin:0;flex:1">Prevención, administración y solución de controversias fiscales, corporativas y de defensa fiscal.</p>
+            <p class="jt" style="font-size:14.5px;line-height:1.65;color:#52575B;margin:0;flex:1">Prevención, administración y solución de controversias fiscales, corporativas y de defensa fiscal.</p>
             <button onClick="{{ openLegal }}" class="cta-rotate" style="margin-top:4px;align-self:flex-start;background:#A6192E;color:#fff;border:none;font-family:inherit;font-size:12px;font-weight:600;letter-spacing:.07em;text-transform:uppercase;padding:9px 12px 9px 22px;border-radius:2px;cursor:pointer;display:inline-flex;align-items:center;gap:12px;transition:background .25s ease,transform .25s ease,box-shadow .25s ease" style-hover="background:#8E1526;transform:translateY(-2px);box-shadow:0 8px 18px rgba(0,0,0,.22)">Más Información <span class="cta-arrow" style="display:inline-flex;align-items:center;justify-content:center;width:28px;height:28px;border-radius:3px;background:rgba(0,0,0,.22);transition:transform .35s ease;flex:none"><span style="font-size:14px;line-height:1;transition:transform .35s ease">→</span></span></button>
           </div>
         </div>
@@ -335,7 +336,7 @@
               <svg viewBox="0 0 30 30" width="27" height="27" fill="none" stroke="#A6192E" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="4,23 11,15.5 16,19 26,7.5"></polyline><polyline points="19.5,7.5 26,7.5 26,14"></polyline></svg>
               <h3 style="font-family:'Spectral',serif;font-weight:500;font-size:23px;color:#15191E;margin:0">Asesoría Financiera</h3>
             </div>
-            <p style="font-size:14.5px;line-height:1.65;color:#52575B;margin:0;flex:1">Análisis financiero para entender el comportamiento y los resultados de su empresa.</p>
+            <p class="jt" style="font-size:14.5px;line-height:1.65;color:#52575B;margin:0;flex:1">Análisis financiero para entender el comportamiento y los resultados de su empresa.</p>
             <button onClick="{{ openFinan }}" class="cta-rotate" style="margin-top:4px;align-self:flex-start;background:#A6192E;color:#fff;border:none;font-family:inherit;font-size:12px;font-weight:600;letter-spacing:.07em;text-transform:uppercase;padding:9px 12px 9px 22px;border-radius:2px;cursor:pointer;display:inline-flex;align-items:center;gap:12px;transition:background .25s ease,transform .25s ease,box-shadow .25s ease" style-hover="background:#8E1526;transform:translateY(-2px);box-shadow:0 8px 18px rgba(0,0,0,.22)">Más Información <span class="cta-arrow" style="display:inline-flex;align-items:center;justify-content:center;width:28px;height:28px;border-radius:3px;background:rgba(0,0,0,.22);transition:transform .35s ease;flex:none"><span style="font-size:14px;line-height:1;transition:transform .35s ease">→</span></span></button>
           </div>
         </div>
@@ -353,11 +354,11 @@
     <div onClick="{{ closeModal }}" style="position:fixed;inset:0;z-index:200;background:rgba(8,14,20,.62);display:flex;align-items:flex-start;justify-content:center;padding:5vh 18px;overflow-y:auto">
       <div onClick="{{ stop }}" style="background:#fff;max-width:760px;width:100%;border-top:4px solid #A6192E;box-shadow:0 30px 80px rgba(0,0,0,.45);position:relative">
         <button onClick="{{ closeModal }}" aria-label="Cerrar" style="position:absolute;top:14px;right:14px;width:40px;height:40px;border:none;background:transparent;color:#9A9D9E;font-size:26px;cursor:pointer;line-height:1;transition:color .2s ease" style-hover="color:#15191E">×</button>
-        <div style="padding:46px clamp(28px,5vw,54px)">
+        <div class="dc-modal" style="padding:46px clamp(28px,5vw,54px)">
           <div style="font-size:12px;letter-spacing:.3em;text-transform:uppercase;color:#A6192E;font-weight:600;margin-bottom:10px">Servicio</div>
           <h3 style="font-family:'Spectral',serif;font-weight:400;font-size:clamp(28px,4vw,38px);color:#15191E;margin:0 0 22px">Contabilidad</h3>
           <img src="assets/serv-contab.webp" alt="" style="width:100%;height:210px;object-fit:cover;display:block;margin:0 0 20px">
-          <p style="font-weight:700;font-size:16.5px;line-height:1.6;color:#15191E;margin:0 0 32px">Registro técnico de las transacciones de su entidad, base de los estados financieros útiles para la toma de decisiones.</p>
+          <p class="jt" style="font-weight:700;font-size:16.5px;line-height:1.6;color:#15191E;margin:0 0 32px">Registro técnico de las transacciones de su entidad, base de los estados financieros útiles para la toma de decisiones.</p>
           <div style="font-size:11.5px;letter-spacing:.22em;text-transform:uppercase;color:#A6192E;font-weight:600;margin:0 0 14px">Objetivo</div>
           <ul style="margin:0 0 30px;padding-left:20px;display:flex;flex-direction:column;gap:11px;color:#454A4E;font-size:15.5px;line-height:1.6">
             <li>Establecer un adecuado control del registro de las operaciones de su empresa para obtener la información necesaria que refleje la situación financiera y los resultados de la misma.</li>
@@ -380,11 +381,11 @@
     <div onClick="{{ closeModal }}" style="position:fixed;inset:0;z-index:200;background:rgba(8,14,20,.62);display:flex;align-items:flex-start;justify-content:center;padding:5vh 18px;overflow-y:auto">
       <div onClick="{{ stop }}" style="background:#fff;max-width:760px;width:100%;border-top:4px solid #A6192E;box-shadow:0 30px 80px rgba(0,0,0,.45);position:relative">
         <button onClick="{{ closeModal }}" aria-label="Cerrar" style="position:absolute;top:14px;right:14px;width:40px;height:40px;border:none;background:transparent;color:#9A9D9E;font-size:26px;cursor:pointer;line-height:1;transition:color .2s ease" style-hover="color:#15191E">×</button>
-        <div style="padding:46px clamp(28px,5vw,54px)">
+        <div class="dc-modal" style="padding:46px clamp(28px,5vw,54px)">
           <div style="font-size:12px;letter-spacing:.3em;text-transform:uppercase;color:#A6192E;font-weight:600;margin-bottom:10px">Servicio</div>
           <h3 style="font-family:'Spectral',serif;font-weight:400;font-size:clamp(28px,4vw,38px);color:#15191E;margin:0 0 22px">Auditoría</h3>
           <img src="assets/serv-audit.webp" alt="" style="width:100%;height:210px;object-fit:cover;display:block;margin:0 0 20px">
-          <p style="font-weight:700;font-size:16.5px;line-height:1.6;color:#15191E;margin:0 0 32px">Revisión fiscal y financiera independiente sobre sus estados financieros y el cumplimiento de obligaciones.</p>
+          <p class="jt" style="font-weight:700;font-size:16.5px;line-height:1.6;color:#15191E;margin:0 0 32px">Revisión fiscal y financiera independiente sobre sus estados financieros y el cumplimiento de obligaciones.</p>
           <div style="font-size:11.5px;letter-spacing:.22em;text-transform:uppercase;color:#A6192E;font-weight:600;margin:0 0 14px">Objetivo</div>
           <ul style="margin:0 0 30px;padding-left:20px;display:flex;flex-direction:column;gap:11px;color:#454A4E;font-size:15.5px;line-height:1.6">
             <li>Comprobar la existencia, correcta valuación y la disponibilidad del efectivo y las inversiones temporales.</li>
@@ -406,11 +407,11 @@
     <div onClick="{{ closeModal }}" style="position:fixed;inset:0;z-index:200;background:rgba(8,14,20,.62);display:flex;align-items:flex-start;justify-content:center;padding:5vh 18px;overflow-y:auto">
       <div onClick="{{ stop }}" style="background:#fff;max-width:760px;width:100%;border-top:4px solid #A6192E;box-shadow:0 30px 80px rgba(0,0,0,.45);position:relative">
         <button onClick="{{ closeModal }}" aria-label="Cerrar" style="position:absolute;top:14px;right:14px;width:40px;height:40px;border:none;background:transparent;color:#9A9D9E;font-size:26px;cursor:pointer;line-height:1;transition:color .2s ease" style-hover="color:#15191E">×</button>
-        <div style="padding:46px clamp(28px,5vw,54px)">
+        <div class="dc-modal" style="padding:46px clamp(28px,5vw,54px)">
           <div style="font-size:12px;letter-spacing:.3em;text-transform:uppercase;color:#A6192E;font-weight:600;margin-bottom:10px">Servicio</div>
           <h3 style="font-family:'Spectral',serif;font-weight:400;font-size:clamp(28px,4vw,38px);color:#15191E;margin:0 0 22px">Asesoría Fiscal</h3>
           <img src="assets/serv-fiscal.webp" alt="" style="width:100%;height:210px;object-fit:cover;display:block;margin:0 0 20px">
-          <p style="font-weight:700;font-size:16.5px;line-height:1.6;color:#15191E;margin:0 0 32px">Diagnóstico y opinión profesional sobre su estatus fiscal y financiero, con seguridad jurídica en cada decisión.</p>
+          <p class="jt" style="font-weight:700;font-size:16.5px;line-height:1.6;color:#15191E;margin:0 0 32px">Diagnóstico y opinión profesional sobre su estatus fiscal y financiero, con seguridad jurídica en cada decisión.</p>
           <div style="font-size:11.5px;letter-spacing:.22em;text-transform:uppercase;color:#A6192E;font-weight:600;margin:0 0 14px">Objetivo</div>
           <ul style="margin:0 0 30px;padding-left:20px;display:flex;flex-direction:column;gap:11px;color:#454A4E;font-size:15.5px;line-height:1.6">
             <li>Hacer un diagnóstico para poder emitir una opinión profesional sobre su estatus fiscal y financiero.</li>
@@ -433,12 +434,12 @@
     <div onClick="{{ closeModal }}" style="position:fixed;inset:0;z-index:200;background:rgba(8,14,20,.62);display:flex;align-items:flex-start;justify-content:center;padding:5vh 18px;overflow-y:auto">
       <div onClick="{{ stop }}" style="background:#fff;max-width:780px;width:100%;border-top:4px solid #A6192E;box-shadow:0 30px 80px rgba(0,0,0,.45);position:relative">
         <button onClick="{{ closeModal }}" aria-label="Cerrar" style="position:absolute;top:14px;right:14px;width:40px;height:40px;border:none;background:transparent;color:#9A9D9E;font-size:26px;cursor:pointer;line-height:1;transition:color .2s ease" style-hover="color:#15191E">×</button>
-        <div style="padding:46px clamp(28px,5vw,54px)">
+        <div class="dc-modal" style="padding:46px clamp(28px,5vw,54px)">
           <div style="font-size:12px;letter-spacing:.3em;text-transform:uppercase;color:#A6192E;font-weight:600;margin-bottom:10px">Servicio</div>
           <h3 style="font-family:'Spectral',serif;font-weight:400;font-size:clamp(28px,4vw,38px);color:#15191E;margin:0 0 22px">Legal</h3>
           <img src="assets/serv-legal.webp" alt="" style="width:100%;height:210px;object-fit:cover;display:block;margin:0 0 20px">
-          <p style="font-weight:700;font-size:16.5px;line-height:1.6;color:#15191E;margin:0 0 26px">Prevención, administración y solución de controversias fiscales, corporativas y de defensa fiscal.</p>
-          <p style="font-size:15.5px;line-height:1.65;color:#454A4E;margin:0 0 26px">Prevención, administración y solución de controversias fiscales. Prestamos servicios de asesoría en los siguientes rubros:</p>
+          <p class="jt" style="font-weight:700;font-size:16.5px;line-height:1.6;color:#15191E;margin:0 0 26px">Prevención, administración y solución de controversias fiscales, corporativas y de defensa fiscal.</p>
+          <p class="jt" style="font-size:15.5px;line-height:1.65;color:#454A4E;margin:0 0 26px">Prevención, administración y solución de controversias fiscales. Prestamos servicios de asesoría en los siguientes rubros:</p>
           <div style="font-size:11.5px;letter-spacing:.22em;text-transform:uppercase;color:#A6192E;font-weight:600;margin:0 0 14px">Defensa fiscal</div>
           <ul style="margin:0 0 30px;padding-left:20px;display:flex;flex-direction:column;gap:11px;color:#454A4E;font-size:15.5px;line-height:1.6">
             <li>Detección de riesgos fiscales.</li>
@@ -450,12 +451,12 @@
           </ul>
           <div style="font-size:11.5px;letter-spacing:.22em;text-transform:uppercase;color:#A6192E;font-weight:600;margin:0 0 16px">Áreas de práctica</div>
           <div style="display:flex;flex-direction:column;gap:16px">
-            <div><div style="font-family:'Spectral',serif;font-size:17px;color:#15191E;margin-bottom:3px">Fusiones y Adquisiciones</div><p style="margin:0;font-size:14.5px;line-height:1.6;color:#52575B">Asesoría, negociación y preparación de contratos o convenios relacionados con la adquisición y venta de negocios y empresas, fusiones y co-inversiones en diversas ramas de la industria.</p></div>
-            <div><div style="font-family:'Spectral',serif;font-size:17px;color:#15191E;margin-bottom:3px">Contratos</div><p style="margin:0;font-size:14.5px;line-height:1.6;color:#52575B">Asesoría, preparación y negociación de contratos o convenios de carácter civil y mercantil, con participantes tanto nacionales como internacionales.</p></div>
-            <div><div style="font-family:'Spectral',serif;font-size:17px;color:#15191E;margin-bottom:3px">Laboral</div><p style="margin:0;font-size:14.5px;line-height:1.6;color:#52575B">Asesoría y apoyo legal ante diligencias de inspección realizadas por la Secretaría del Trabajo y Previsión Social.</p></div>
-            <div><div style="font-family:'Spectral',serif;font-size:17px;color:#15191E;margin-bottom:3px">Seguridad Social</div><p style="margin:0;font-size:14.5px;line-height:1.6;color:#52575B">Asesoría y defensa en materia de Seguridad Social, derivada de liquidaciones, capitales constitutivos y riesgos de trabajo.</p></div>
-            <div><div style="font-family:'Spectral',serif;font-size:17px;color:#15191E;margin-bottom:3px">Comercio Exterior</div><p style="margin:0;font-size:14.5px;line-height:1.6;color:#52575B">Revisión interna de las operaciones de comercio exterior para detectar y corregir anomalías a tiempo, antes de que la autoridad inicie facultades de comprobación, evitando infracciones y sanciones en términos de la Ley Aduanera.</p></div>
-            <div><div style="font-family:'Spectral',serif;font-size:17px;color:#15191E;margin-bottom:3px">Ambiental</div><p style="margin:0;font-size:14.5px;line-height:1.6;color:#52575B">Evaluación sistemática, documentada, periódica y objetiva de la efectividad de la organización y los equipos ambientales, para proteger el medio ambiente mediante un mejor control de las prácticas y el cumplimiento de las políticas ambientales y los requerimientos legales de la empresa.</p></div>
+            <div><div style="font-family:'Spectral',serif;font-size:17px;color:#15191E;margin-bottom:3px">Fusiones y Adquisiciones</div><p class="jt" style="margin:0;font-size:14.5px;line-height:1.6;color:#52575B">Asesoría, negociación y preparación de contratos o convenios relacionados con la adquisición y venta de negocios y empresas, fusiones y co-inversiones en diversas ramas de la industria.</p></div>
+            <div><div style="font-family:'Spectral',serif;font-size:17px;color:#15191E;margin-bottom:3px">Contratos</div><p class="jt" style="margin:0;font-size:14.5px;line-height:1.6;color:#52575B">Asesoría, preparación y negociación de contratos o convenios de carácter civil y mercantil, con participantes tanto nacionales como internacionales.</p></div>
+            <div><div style="font-family:'Spectral',serif;font-size:17px;color:#15191E;margin-bottom:3px">Laboral</div><p class="jt" style="margin:0;font-size:14.5px;line-height:1.6;color:#52575B">Asesoría y apoyo legal ante diligencias de inspección realizadas por la Secretaría del Trabajo y Previsión Social.</p></div>
+            <div><div style="font-family:'Spectral',serif;font-size:17px;color:#15191E;margin-bottom:3px">Seguridad Social</div><p class="jt" style="margin:0;font-size:14.5px;line-height:1.6;color:#52575B">Asesoría y defensa en materia de Seguridad Social, derivada de liquidaciones, capitales constitutivos y riesgos de trabajo.</p></div>
+            <div><div style="font-family:'Spectral',serif;font-size:17px;color:#15191E;margin-bottom:3px">Comercio Exterior</div><p class="jt" style="margin:0;font-size:14.5px;line-height:1.6;color:#52575B">Revisión interna de las operaciones de comercio exterior para detectar y corregir anomalías a tiempo, antes de que la autoridad inicie facultades de comprobación, evitando infracciones y sanciones en términos de la Ley Aduanera.</p></div>
+            <div><div style="font-family:'Spectral',serif;font-size:17px;color:#15191E;margin-bottom:3px">Ambiental</div><p class="jt" style="margin:0;font-size:14.5px;line-height:1.6;color:#52575B">Evaluación sistemática, documentada, periódica y objetiva de la efectividad de la organización y los equipos ambientales, para proteger el medio ambiente mediante un mejor control de las prácticas y el cumplimiento de las políticas ambientales y los requerimientos legales de la empresa.</p></div>
           </div>
         </div>
       </div>
@@ -465,13 +466,13 @@
     <div onClick="{{ closeModal }}" style="position:fixed;inset:0;z-index:200;background:rgba(8,14,20,.62);display:flex;align-items:flex-start;justify-content:center;padding:5vh 18px;overflow-y:auto">
       <div onClick="{{ stop }}" style="background:#fff;max-width:760px;width:100%;border-top:4px solid #A6192E;box-shadow:0 30px 80px rgba(0,0,0,.45);position:relative">
         <button onClick="{{ closeModal }}" aria-label="Cerrar" style="position:absolute;top:14px;right:14px;width:40px;height:40px;border:none;background:transparent;color:#9A9D9E;font-size:26px;cursor:pointer;line-height:1;transition:color .2s ease" style-hover="color:#15191E">×</button>
-        <div style="padding:46px clamp(28px,5vw,54px)">
+        <div class="dc-modal" style="padding:46px clamp(28px,5vw,54px)">
           <div style="font-size:12px;letter-spacing:.3em;text-transform:uppercase;color:#A6192E;font-weight:600;margin-bottom:10px">Servicio</div>
           <h3 style="font-family:'Spectral',serif;font-weight:400;font-size:clamp(28px,4vw,38px);color:#15191E;margin:0 0 22px">Asesoría Financiera</h3>
           <img src="assets/serv-finan.webp" alt="" style="width:100%;height:210px;object-fit:cover;display:block;margin:0 0 20px">
-          <p style="font-weight:700;font-size:16.5px;line-height:1.6;color:#15191E;margin:0 0 28px">Análisis financiero para entender el comportamiento y los resultados de su empresa.</p>
-          <p style="font-size:16px;line-height:1.7;color:#454A4E;margin:0 0 18px">Realizamos un análisis financiero que ayuda al mejor entendimiento del comportamiento y los resultados de la empresa, como base para la toma de decisiones de inversión, financiamiento y crecimiento.</p>
-          <p style="font-size:16px;line-height:1.7;color:#454A4E;margin:0">Evaluamos la situación financiera, identificamos áreas de oportunidad y acompañamos a la dirección con información clara y oportuna para fortalecer la estabilidad y rentabilidad del negocio.</p>
+          <p class="jt" style="font-weight:700;font-size:16.5px;line-height:1.6;color:#15191E;margin:0 0 28px">Análisis financiero para entender el comportamiento y los resultados de su empresa.</p>
+          <p class="jt" style="font-size:16px;line-height:1.7;color:#454A4E;margin:0 0 18px">Realizamos un análisis financiero que ayuda al mejor entendimiento del comportamiento y los resultados de la empresa, como base para la toma de decisiones de inversión, financiamiento y crecimiento.</p>
+          <p class="jt" style="font-size:16px;line-height:1.7;color:#454A4E;margin:0">Evaluamos la situación financiera, identificamos áreas de oportunidad y acompañamos a la dirección con información clara y oportuna para fortalecer la estabilidad y rentabilidad del negocio.</p>
         </div>
       </div>
     </div>
