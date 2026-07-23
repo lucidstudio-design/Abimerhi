@@ -501,10 +501,10 @@
                     <span style="font-family:'Spectral',serif;font-size:72px;color:#A6192E;line-height:.55;display:block;height:34px;flex:none;pointer-events:none">“</span>
                     <div style="flex:1;min-height:0">
                       <sc-if value="{{ card.collapsed }}" hint-placeholder-val="{{ true }}">
-                        <p ref="{{ card.ref }}" style="font-family:'Spectral',serif;font-size:clamp(16.5px,1.45vw,20px);font-style:italic;line-height:1.55;color:rgba(255,255,255,.93);margin:0;display:-webkit-box;-webkit-line-clamp:6;-webkit-box-orient:vertical;overflow:hidden">{{ card.quote }}</p>
+                        <p ref="{{ card.ref }}" class="jt" style="font-family:'Spectral',serif;font-size:clamp(16.5px,1.45vw,20px);font-style:italic;line-height:1.55;color:rgba(255,255,255,.93);margin:0;display:-webkit-box;-webkit-line-clamp:6;-webkit-box-orient:vertical;overflow:hidden">{{ card.quote }}</p>
                       </sc-if>
                       <sc-if value="{{ card.expanded }}" hint-placeholder-val="{{ false }}">
-                        <p style="font-family:'Spectral',serif;font-size:clamp(16.5px,1.45vw,20px);font-style:italic;line-height:1.55;color:rgba(255,255,255,.93);margin:0">{{ card.quote }}</p>
+                        <p class="jt" style="font-family:'Spectral',serif;font-size:clamp(16.5px,1.45vw,20px);font-style:italic;line-height:1.55;color:rgba(255,255,255,.93);margin:0">{{ card.quote }}</p>
                       </sc-if>
                     </div>
                     <sc-if value="{{ card.showToggle }}" hint-placeholder-val="{{ false }}">
